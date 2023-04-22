@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resposinve Coffee Shop Website</title>
+
+        <!-- Font cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <!-- Css File Link -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <!-- Header Seciton Starts Here -->
+        <header class="header">
+
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="" style="max-height: 60px;">
+            </a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#products">Products</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
+                <a href="#blog">Blog</a>
+            </nav>
+
+            <div class="icons">
+                <div class="fas fa-search" id="search-btn"></div>
+                <div class="fas fa-shopping-cart" id="cart-btn"></div>
+                <div class="fas fa-bars" id="menu-btn"></div>
+            </div>
+
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="search here...">
+                <label for="search-box" class="fas fa-search"></label>
+            </div>
+
+            <div class="cart-items-container">
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="images/item_01.jpg" alt="">
+                    <div class="content">
+                        <h3>cart item 01</h3>
+                        <div class="price">$18.99</div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="images/item_02.jpg" alt="">
+                    <div class="content">
+                        <h3>cart item 01</h3>
+                        <div class="price">$18.99</div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="images/item_03.jpg" alt="">
+                    <div class="content">
+                        <h3>cart item 01</h3>
+                        <div class="price">$18.99</div>
+                    </div>
+                </div>
+                <a href="#" class="btn">Checkout Now</a>
+            </div>
+
+        </header>
+
+        <!-- Home Section Starts Here -->
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Fresh Coffee in the morning</h3>
+                <p>From café chains to retail roasters, we've ranked some of the most popular coffee brands from worst to first.</p>
+                <a href="#" class="btn">Get Yours!</a>
+            </div>
+        </section>
+
+        <!-- About Section Starts Here -->
+        <section class="about" id="about">
+            <h1 class="heading">
+                <span>about&nbsp</span>us
+            </h1>
+            <div class="row">
+                <div class="image">
+                    <img src="images/about-img.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>What makes our coffee special?</h3>
+                    <p>The two most commonly grown coffee bean types are C. arabica and C. robusta.
+                         Coffee plants are cultivated in over 70 countries, primarily in the equatorial regions of the Americas, 
+                         Southeast Asia, the Indian subcontinent, and Africa.</p>
+                    <p>There are multiple anecdotal origin stories which lack evidence. In a commonly repeated legend, Kaldi, a 9th-century Ethiopian goatherd, 
+                        first observed the coffee plant after seeing his flock energized by chewing on the plant.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section Starts Here -->
+        <section class="menu" id="menu">
+            <h1 class="heading">Our&nbsp<span>menu</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/item_01.jpg" alt="">
+                    <h3>Good and Healthy</h3>
+                    <div class="price">$10.90 <span>17.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="images/item_02.jpg" alt="">
+                    <h3>Good and Healthy</h3>
+                    <div class="price">$8.60 <span>11.90</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="images/item_03.jpg" alt="">
+                    <h3>Good and Healthy</h3>
+                    <div class="price">$13.99 <span>16.89</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="images/item_04.jpg" alt="">
+                    <h3>Good and Healthy</h3>
+                    <div class="price">$10.90 <span>12.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="images/item_05.jpg" alt="">
+                    <h3>Good and Healthy</h3>
+                    <div class="price">$12.30 <span>17.75</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="images/item_06.jpg" alt="">
+                    <h3>Good and Healthy</h3>
+                    <div class="price">$13.90 <span>17.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section Starts Here -->
+        <section class="products" id="products">
+            <h1 class="heading">our&nbsp<span>products</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images/product_01.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Fresh Coffee</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">$15.99 <span>$20.99</span> </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images/product_02.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Fresh Coffee</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">$15.99 <span>$20.99</span> </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images/product_03.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Fresh Coffee</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">$15.99 <span>$20.99</span> </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images/product_04.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Fresh Coffee</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">$15.99 <span>$20.99</span> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Review Section Starts Here -->
+        <section class="review" id="review">
+
+            <h1 class="heading">
+                customer's <span>review</span>
+            </h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/quote-img.png" alt="" class="quote">
+                    <p>Recently walked into this place heading to the English Market from the Clayton hotel. 
+                        I would never write a review about a coffee shop but in this case the service was so crazy good and the food was excellent. 
+                        Well worth the visit.
+                    <img src="images/pic-1.jpg" class="user" alt="">
+                    <h3>Alex Lenger</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/quote-img.png" alt="" class="quote">
+                    <p>Recently walked into this place heading to the English Market from the Clayton hotel. 
+                        I would never write a review about a coffee shop but in this case the service was so crazy good and the food was excellent. 
+                        Well worth the visit.
+                    <img src="images/pic-2.jpg" class="user" alt="">
+                    <h3>Alex Lenger</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/quote-img.png" alt="" class="quote">
+                    <p>Recently walked into this place heading to the English Market from the Clayton hotel. 
+                        I would never write a review about a coffee shop but in this case the service was so crazy good and the food was excellent. 
+                        Well worth the visit.
+                    <img src="images/pic-3.jpg" class="user" alt="">
+                    <h3>Alex Lenger</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Contact Section Starts Here -->
+        <section class="contact" id="contact">
+            <h1 class="heading"><span>contact</span> us </h1>
+            <div class="row">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42489.499889376406!2d-1.3897140744411447!3d54.
+                910228881803654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e6782ba102083%3A0x3050ca6277fbacb8!2sThe%20Hideout%20Coffee%20House
+                !5e0!3m2!1sen!2sro!4v1681308300938!5m2!1sen!2sro" class="map" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <form action="">
+                    <h3>get in touch</h3>
+                    <div class="inputBox">
+                        <span class="fas fa-user"></span>
+                        <input type="text" placeholder="name">
+                    </div>
+                    <div class="inputBox">
+                        <span class="fas fa-envelope"></span>
+                        <input type="email" placeholder="email">
+                    </div>
+                    <div class="inputBox">
+                        <span class="fas fa-phone"></span>
+                        <input type="number" placeholder="number">
+                    </div>
+                    <input type="submit" value="Contact Now" class="btn">
+                </form>
+            </div>
+        </section>
+
+        <!-- Blog Section Starts Here -->
+        <section class="blog" id="blog">
+            <h1 class="heading"> our <span>posts</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="images/post_01.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">Tasty and refreshing coffee</a>
+                        <span>By admin / 21st Jul, 2023</span>
+                        <p>Coffee is so much more than a beverage — it’s a community. 
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/post_02.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">Tasty and refreshing coffee</a>
+                        <span>By admin / 1st Apr, 2023</span>
+                        <p>Maybe you’re a novice whose infatuation is rapidly turning into something more serious.
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/post_03.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">Tasty and refreshing coffee</a>
+                        <span>By admin / 2nd May, 2023</span>
+                        <p>The catch phrase for Coffee Cantata, “Coffee: Music in a Cup,” captures creator Margaret’s unpretentious approach to coffee connoisseurship.
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Starts Here -->
+        <section class="footer">
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+            </div>
+            <div class="links">
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">menu</a>
+                <a href="#">products</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+                <a href="#">blog</a>
+            </div>
+            <div class="credit">Created by<span> Alex Sandor</span> | all rights reserved</div>
+        </section>
+
+        <!-- Custom js file link -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
